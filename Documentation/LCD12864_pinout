@@ -1,0 +1,24 @@
+Asumming your perspective has the 10 pin connector in the upper left corner:
+.----------.
+|VCC   GND |
+|LCD7  LCD6|
+ LCD5  LCD4|
+|LCDRS LCDE|
+|BTN   BEEP|
+'----------'
+
+Rotary encoder is mapped to:
+BTN_L -> LCD7
+BTN_R -> LCD6
+
+Ribbon wires and their mapping to ESP-32 Devkit v1, assuming your perspective has the red wire on top:
+VCC   -> VIN
+GND   -> GND
+LCD7  -> D5
+LCD6  -> D18
+LCD5  -> D19
+LCD4  -> D21
+LCDRS -> D22
+LCDE  -> D23
+BTN   -> D27
+BEEP  -> D26
